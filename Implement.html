@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Quản Lý Sinh Viên</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <h1>Quản Lý Sinh Viên</h1>
+    <div>
+        <h2>Tìm Kiếm Sinh Viên</h2>
+        <input type="text" id="search-input" placeholder="Tìm kiếm">
+    </div>
+    <div>
+        <h2>Thêm Sinh Viên</h2>
+        <form id="student-form">
+            <input type="text" id="student-name" placeholder="Tên sinh viên" required>
+            <input type="number" id="student-age" placeholder="Tuổi" required>
+            <button type="submit">Thêm</button>
+        </form>
+    </div>
+    <div>
+        <h2>Danh Sách Sinh Viên</h2>
+        <ul id="student-list"></ul>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
